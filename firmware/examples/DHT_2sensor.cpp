@@ -46,6 +46,7 @@ void setup()
         Particle.process();
         delay (1000);
     }
+    
     Serial.println("DHT 2 Sensor program using DHT.acquire and DHT.aquiring");
     Serial.print("LIB version: ");
     Serial.println(DHTLIB_VERSION);
